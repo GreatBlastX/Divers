@@ -1,3 +1,5 @@
+//Count the number of digits in intger
+
 int countDigit(long long n)
 {
     int count = 0;
@@ -7,6 +9,8 @@ int countDigit(long long n)
     }
     return count;
 }
+
+//Split a number into digits 
 
 void splitNum (int number, int size, int v[]) {
     int power = 1, digit, tmp;
